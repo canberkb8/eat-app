@@ -1,0 +1,22 @@
+{
+	"title" : "Category",
+	"category_list": [
+		{
+			"id" : 1,
+			"icon_image": "https://imagelink.png",
+			"name" : "Burger"
+		},{
+			"id" : 2,
+			"icon_image": "https://imagelink.png",
+			"name" : "Pizza"
+		},{
+			"id" : 3,
+			"icon_image": "https://imagelink.png",
+			"name" : "Drink"
+		},{
+			"id" : 4,
+			"icon_image": "https://imagelink.png",
+			"name" : "Ice Cream"
+		}
+	]		
+}

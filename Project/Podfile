@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+source 'https://github.com/CocoaPods/Specs'
+
+workspace 'EatApp'
+
+project 'EatApp/EatApp.xcodeproj'
+project 'ENetwork/ENetwork.xcodeproj'
+
+def api_pods
+   	pod 'Alamofire', :inhibit_warnings => true
+end
+
+def client_pods
+   	pod 'Alamofire', :inhibit_warnings => true
+   	pod 'Kingfisher', :inhibit_warnings => true
+	pod 'ReachabilitySwift', :inhibit_warnings => true
+end
+
+target 'EatApp' do
+  	project 'EatApp/EatApp.xcodeproj'
+  	client_pods
+end
+
+target 'ENetwork' do
+  	project 'ENetwork/ENetwork.xcodeproj'
+  	api_pods
+end
+
+target 'EatAppTests' do
+	project 'EatApp/EatApp.xcodeproj'
+	client_pods
+end
+
+target 'EatAppUITests' do
+	project 'EatApp/EatApp.xcodeproj'
+	client_pods
+end

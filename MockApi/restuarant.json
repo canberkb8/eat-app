@@ -1,0 +1,38 @@
+{
+	"title" : "Restuarant List",
+	"restuarant_list" : [
+		{
+			"id" : 1,
+			"image": "https://imagelink.png",
+			"rating" : 4.9,
+			"rating_count" : 15,
+			"favorite" : false,
+			"title" : "Seaview Mirissa Hotel",
+			"delivery_time" : 16,
+			"delivery_price" : "Free delivery",
+			"open" : true
+		},{
+			"id" : 2,
+			"image": "https://imagelink.png",
+			"rating" : 4.5,
+			"rating_count" : 55,
+			"favorite" : true,
+			"title" : "Seaview Mirissa Hotel",
+			"delivery_time" : 12,
+			"delivery_price" : "5",
+			"open" : true
+		},{
+			"id" : 3,
+			"image": "https://imagelink.png",
+			"rating" : 3.5,
+			"rating_count" : 5,
+			"favorite" : false,
+			"title" : "Seaview Mirissa Hotel",
+			"delivery_time" : 40,
+			"delivery_price" : "Free delivery",
+			"open" : false
+		}
+	],
+	"current_page" : 1,
+	"max_page" : 2
+}
