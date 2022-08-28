@@ -3,7 +3,7 @@
 	"recommended_list" : [
 		{
 			"id" : 1,
-            "image": "https://imagelink.png",
+            "image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood.png",
             "rating" : 4.9,
             "rating_count" : 15,
             "favorite" : false,
@@ -13,7 +13,7 @@
             "open" : true
         },{
             "id" : 2,
-            "image": "https://imagelink.png",
+            "image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood2.png",
             "rating" : 4.5,
             "rating_count" : 55,
             "favorite" : true,
@@ -23,7 +23,7 @@
             "open" : true
         },{
             "id" : 3,
-            "image": "https://imagelink.png",
+            "image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood4.png",
             "rating" : 3.5,
             "rating_count" : 5,
             "favorite" : false,

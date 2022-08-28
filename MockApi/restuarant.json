@@ -3,17 +3,17 @@
 	"restuarant_list" : [
 		{
 			"id" : 1,
-			"image": "https://imagelink.png",
+			"image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood.png",
 			"rating" : 4.9,
 			"rating_count" : 15,
 			"favorite" : false,
 			"title" : "Seaview Mirissa Hotel",
 			"delivery_time" : 16,
-			"delivery_price" : "Free delivery",
+			"delivery_price" : "5$",
 			"open" : true
 		},{
 			"id" : 2,
-			"image": "https://imagelink.png",
+			"image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood2.png",
 			"rating" : 4.5,
 			"rating_count" : 55,
 			"favorite" : true,
@@ -23,7 +23,7 @@
 			"open" : true
 		},{
 			"id" : 3,
-			"image": "https://imagelink.png",
+			"image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood4.png",
 			"rating" : 3.5,
 			"rating_count" : 5,
 			"favorite" : false,
@@ -31,7 +31,37 @@
 			"delivery_time" : 40,
 			"delivery_price" : "Free delivery",
 			"open" : false
-		}
+		},{
+            "id" : 4,
+            "image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood6.png",
+            "rating" : 3.5,
+            "rating_count" : 5,
+            "favorite" : false,
+            "title" : "Seaview Mirissa Hotel",
+            "delivery_time" : 40,
+            "delivery_price" : "Free delivery",
+            "open" : false
+        },{
+            "id" : 5,
+            "image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood7.png",
+            "rating" : 4.5,
+            "rating_count" : 24,
+            "favorite" : false,
+            "title" : "Seaview Mirissa Hotel",
+            "delivery_time" : 40,
+            "delivery_price" : "Free delivery",
+            "open" : true
+        },{
+            "id" : 6,
+            "image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/junkfood3.png",
+            "rating" : 4.5,
+            "rating_count" : 2,
+            "favorite" : false,
+            "title" : "Seaview Mirissa Hotel",
+            "delivery_time" : 20,
+            "delivery_price" : "Free delivery",
+            "open" : true
+        }
 	],
 	"current_page" : 1,
 	"max_page" : 2

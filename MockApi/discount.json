@@ -3,16 +3,22 @@
 	"discount_list" : [
 		{
 			"id" : 1,
-			"restaurant_id" : 2,
-			"title" : "25% Off",
-			"description" : "Use 'OFF25' . Enjoy delicious food",
-			"image" : "https://imagelink.png"
+			"restaurant_id" : 1,
+			"title" : "",
+			"description" : "",
+			"image" : "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/discount1.png"
 		},{
 			"id" : 2,
-			"restaurant_id" : 3,
-			"title" : "20% Off",
-			"description" : "Use 'OFF20' . Enjoy delicious food",
-			"image" : "https://imagelink.png"
-		}
+			"restaurant_id" : 2,
+			"title" : "",
+			"description" : "",
+			"image" : "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/discount2.png"
+		},{
+            "id" : 3,
+            "restaurant_id" : 3,
+            "title" : "",
+            "description" : "",
+            "image" : "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/discount3.png"
+        }
 	]
 }

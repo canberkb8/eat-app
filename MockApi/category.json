@@ -3,19 +3,19 @@
 	"category_list": [
 		{
 			"id" : 1,
-			"icon_image": "https://imagelink.png",
+			"icon_image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/hamburgericon.png",
 			"name" : "Burger"
 		},{
 			"id" : 2,
-			"icon_image": "https://imagelink.png",
+			"icon_image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/pizzaicon.png",
 			"name" : "Pizza"
 		},{
 			"id" : 3,
-			"icon_image": "https://imagelink.png",
+			"icon_image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/drinkicon.png",
 			"name" : "Drink"
 		},{
 			"id" : 4,
-			"icon_image": "https://imagelink.png",
+			"icon_image": "https://raw.githubusercontent.com/canberkb8/eat-app/master/MockApi/images/icecreamicon.png",
 			"name" : "Ice Cream"
 		}
 	]		
