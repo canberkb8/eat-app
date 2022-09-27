@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D73F8BA28BD356700D6D044 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73F8B428BD356600D6D044 /* Network.swift */; };
+		4D73F8BB28BD356700D6D044 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73F8B528BD356700D6D044 /* NetworkConfiguration.swift */; };
+		4D73F8BC28BD356700D6D044 /* UIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73F8B628BD356700D6D044 /* UIApplication + Extension.swift */; };
+		4D73F8BD28BD356700D6D044 /* NetworkIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73F8B728BD356700D6D044 /* NetworkIndicator.swift */; };
+		4D73F8BE28BD356700D6D044 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73F8B828BD356700D6D044 /* NetworkError.swift */; };
+		4D73F8BF28BD356700D6D044 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73F8B928BD356700D6D044 /* Constants.swift */; };
 		4D87C65D28BBBB25002B0F8B /* ENetwork.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4D87C65C28BBBB25002B0F8B /* ENetwork.docc */; };
 		4D87C66328BBBB25002B0F8B /* ENetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D87C65828BBBB25002B0F8B /* ENetwork.framework */; };
 		4D87C66828BBBB25002B0F8B /* ENetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D87C66728BBBB25002B0F8B /* ENetworkTests.swift */; };
 		4D87C66928BBBB25002B0F8B /* ENetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D87C65B28BBBB25002B0F8B /* ENetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D87C67828BBBB76002B0F8B /* ENetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D87C67728BBBB76002B0F8B /* ENetworkTest.swift */; };
 		FDCA4BCE7449E632D656984C /* libPods-ENetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD538D4B55D9B5065200FB4 /* libPods-ENetwork.a */; };
 /* End PBXBuildFile section */
 
@@ -26,12 +31,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D73F8B428BD356600D6D044 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4D73F8B528BD356700D6D044 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		4D73F8B628BD356700D6D044 /* UIApplication + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication + Extension.swift"; sourceTree = "<group>"; };
+		4D73F8B728BD356700D6D044 /* NetworkIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkIndicator.swift; sourceTree = "<group>"; };
+		4D73F8B828BD356700D6D044 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4D73F8B928BD356700D6D044 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D87C65828BBBB25002B0F8B /* ENetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ENetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D87C65B28BBBB25002B0F8B /* ENetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENetwork.h; sourceTree = "<group>"; };
 		4D87C65C28BBBB25002B0F8B /* ENetwork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ENetwork.docc; sourceTree = "<group>"; };
 		4D87C66228BBBB25002B0F8B /* ENetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ENetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D87C66728BBBB25002B0F8B /* ENetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENetworkTests.swift; sourceTree = "<group>"; };
-		4D87C67728BBBB76002B0F8B /* ENetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENetworkTest.swift; sourceTree = "<group>"; };
 		5306822F9B083F752125A73D /* Pods-ENetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ENetwork.release.xcconfig"; path = "Target Support Files/Pods-ENetwork/Pods-ENetwork.release.xcconfig"; sourceTree = "<group>"; };
 		7AD538D4B55D9B5065200FB4 /* libPods-ENetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ENetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C87F6C2AA4239CFB82E21B /* Pods-ENetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ENetwork.debug.xcconfig"; path = "Target Support Files/Pods-ENetwork/Pods-ENetwork.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +110,12 @@
 			children = (
 				4D87C65B28BBBB25002B0F8B /* ENetwork.h */,
 				4D87C65C28BBBB25002B0F8B /* ENetwork.docc */,
-				4D87C67728BBBB76002B0F8B /* ENetworkTest.swift */,
+				4D73F8B928BD356700D6D044 /* Constants.swift */,
+				4D73F8B428BD356600D6D044 /* Network.swift */,
+				4D73F8B528BD356700D6D044 /* NetworkConfiguration.swift */,
+				4D73F8B828BD356700D6D044 /* NetworkError.swift */,
+				4D73F8B728BD356700D6D044 /* NetworkIndicator.swift */,
+				4D73F8B628BD356700D6D044 /* UIApplication + Extension.swift */,
 			);
 			path = ENetwork;
 			sourceTree = "<group>";
@@ -248,8 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D87C67828BBBB76002B0F8B /* ENetworkTest.swift in Sources */,
+				4D73F8BE28BD356700D6D044 /* NetworkError.swift in Sources */,
 				4D87C65D28BBBB25002B0F8B /* ENetwork.docc in Sources */,
+				4D73F8BA28BD356700D6D044 /* Network.swift in Sources */,
+				4D73F8BB28BD356700D6D044 /* NetworkConfiguration.swift in Sources */,
+				4D73F8BD28BD356700D6D044 /* NetworkIndicator.swift in Sources */,
+				4D73F8BC28BD356700D6D044 /* UIApplication + Extension.swift in Sources */,
+				4D73F8BF28BD356700D6D044 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

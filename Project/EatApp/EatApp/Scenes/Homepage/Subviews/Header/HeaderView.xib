@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="HeaderView" customModule="EatApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GR-kQ-b5m">
+                    <rect key="frame" x="10" y="24" width="310" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zv-9x-wdu">
+                    <rect key="frame" x="235.5" y="19" width="84.5" height="31"/>
+                    <color key="tintColor" red="1" green="0.72156862749999995" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" imagePlacement="leading" title="view all" imagePadding="5" titleAlignment="automatic">
+                        <imageReference key="image" image="chevron.right" catalog="system" symbolScale="small"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="viewAllTap:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="Dk2-nu-cNh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstItem="7GR-kQ-b5m" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="10" id="5ut-TH-q2w"/>
+                <constraint firstItem="7GR-kQ-b5m" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="O8D-lV-gcp"/>
+                <constraint firstItem="6Zv-9x-wdu" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="Ze3-Ye-Uyd"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="6Zv-9x-wdu" secondAttribute="trailing" constant="10" id="gSB-Bl-Z0s"/>
+                <constraint firstAttribute="trailing" secondItem="7GR-kQ-b5m" secondAttribute="trailing" constant="10" id="iXp-dA-aXK"/>
+                <constraint firstItem="7GR-kQ-b5m" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="t1n-7Y-rWY"/>
+            </constraints>
+            <connections>
+                <outlet property="headerViewTitleLabel" destination="7GR-kQ-b5m" id="CqM-A6-W8T"/>
+            </connections>
+            <point key="canvasLocation" x="124.6376811594203" y="82.700892857142847"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+    </resources>
+</document>
